@@ -11,33 +11,33 @@ body{
 .row{
     flex-direction: row;
     display:flex;
+    justify-content: center;
     width: 100%;
-    height: 100%;
 }
 
 .col{
     flex-direction: column;
     display:flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    align-items: center;
+    width: 100vh;
 }
 
 .a{
-    border-radius: 2vh;
-    height: 3vh;
-    text-decoration: none;
-    width: 100%;
-}
-
-p{
-    font-size: 3vh;
-    text-align: center;
-    width: 25%;
     background-color: white;
     border: 3px solid black;
+    border-radius: 2vh;
     color: black;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 30vh;
+    margin: 2vh;
     text-decoration: none;
+}
+
+.p{
+    font-size: 3vh;
+    font-weight: bold;
 }

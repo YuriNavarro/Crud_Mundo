@@ -11,10 +11,10 @@
         <div class="row">
             <div class="col">
                 <h1>Crud_Mundo</h1>
-                <a href="./cidade/index.php" class="a:link">
+                <a href="./cidade/index.php" class="a">
                     <p class="p">CRUD cidades</p>
                 </a>
-                <a href="./pais/index.php" class="a:link">
+                <a href="./pais/index.php" class="a">
                     <p class="p">CRUD países</p>
                 </a>
             </div>
